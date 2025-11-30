@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: officeyb24/yachtbasis24
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "startseite"
+    label: "Startseite"
+    files:
+      - label: "German"
+        name: "de_start"
+        file: "content/de/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inhalt", name: "body", widget: "markdown"}
+
+      - label: "English"
+        name: "en_start"
+        file: "content/en/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
