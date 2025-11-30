@@ -1,0 +1,22 @@
+baseURL = "/"
+title = "Yachtbasis24"
+theme = ["github.com/onweru/compose"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/onweru/compose"
+
+defaultContentLanguage = "de"
+languageCode = "de"
+
+[languages]
+
+[languages.de]
+languageName = "Deutsch"
+contentDir = "content/de"
+weight = 1
+
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+weight = 2
